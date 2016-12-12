@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ContactsApp\templates\base.html" />
+    <Content Include="ContactsApp\templates\Contact\contacts_list.html" />
     <Content Include="ContactsApp\templates\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
