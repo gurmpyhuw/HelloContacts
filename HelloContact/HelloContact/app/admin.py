@@ -22,6 +22,7 @@ class ContactAdmin(ImportExportModelAdmin):
     list_filter = (('region',admin.RelatedOnlyFieldListFilter),('relationship',admin.RelatedOnlyFieldListFilter),('interests',admin.RelatedOnlyFieldListFilter),)
     filter_horizontal = ('interests',)
     list_per_page = 10
+    search_fields = ('email','last_name',)
     resource_class = ContactResource
 
 class InterestAdmin(ImportExportModelAdmin):
