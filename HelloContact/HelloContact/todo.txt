@@ -1,0 +1,9 @@
+add addresses (one to one)
+add options to sourcetype
+add options to jobtitle
+add contact type (foreign key)
+add options to contact type
+add retired (boolean)
+add unsubscribed (boolean)
+add unsubscribe date (datefield)
+add subscribed date (datefield)
